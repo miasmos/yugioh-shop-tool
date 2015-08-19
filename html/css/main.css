@@ -1,0 +1,52 @@
+button {
+	clear: both;
+}
+
+#deck {
+	width: 300px;
+	height: 500px;
+	padding-left: 20px;
+	word-wrap: break-word;
+	border: none;
+	outline: none;
+}
+
+#go {
+	position: fixed;
+	top: 10px;
+	left: 310px;
+}
+
+.inputs {
+	float: left;
+}
+
+.inputs textarea {
+	float: none;
+}
+
+.charts {
+	right: 20px;
+	top: 17px;
+	position: fixed;
+}
+
+.pie {
+	position: relative;	
+	width: 200px;
+	height: 200px;
+	opacity: 0;
+}
+
+.pie canvas {
+	position: absolute;
+	z-index: 2;
+}
+
+.pie .title {
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	width: inherit;
+	top: 91px;
+}
